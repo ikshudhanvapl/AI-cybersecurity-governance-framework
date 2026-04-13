@@ -1,0 +1,21 @@
+# AI-Enabled Cybersecurity Governance Framework
+# .gitattributes — enforce consistent line endings across all platforms
+
+# Default: normalise all text files to LF in the repo
+* text=auto eol=lf
+
+# Markdown documents — always LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary files — never touch line endings
+*.docx binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+
+# Windows-specific: if a Windows contributor checks out, they get CRLF locally
+# but the repo always stores LF. This line is optional — remove if all
+# contributors are on Unix/macOS/Linux.
+# *.md text eol=crlf   ← do NOT uncomment unless specifically needed

@@ -1,0 +1,16 @@
+# Node
+node_modules/
+generate_docs.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Temp
+*.tmp
+*.bak
